@@ -532,7 +532,6 @@ password: research123"""
             """
             <div class="small-note">
             This prototype uses SQLite-backed demo authentication and persistent URL-session tokens.
-            For production, replace with secure server-side authentication.
             </div>
             """,
             unsafe_allow_html=True,
