@@ -28,7 +28,7 @@ from sklearn.preprocessing import StandardScaler
 # CONFIG
 # ============================================================
 st.set_page_config(
-    page_title="AI-Driven Aquatic Airbag Safety Platform",
+    page_title="IoT-Driven Aquatic Airbag Safety Platform",
     page_icon="🌊",
     layout="wide",
     initial_sidebar_state="expanded",
