@@ -493,7 +493,7 @@ if not st.session_state.authenticated:
     restore_session()
 
 if not st.session_state.authenticated:
-    st.markdown('<div class="main-title">🌊 AI-Driven Aquatic Airbag Safety Platform</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">🌊 IoT-Driven Aquatic Airbag Safety Platform</div>', unsafe_allow_html=True)
     st.markdown(
         '<div class="sub-title">Advanced research-grade dashboard for multi-sensor distress detection, airbag deployment decision support, and aquatic rescue operations.</div>',
         unsafe_allow_html=True,
@@ -1063,7 +1063,7 @@ if generate_new:
 # ============================================================
 # HEADER
 # ============================================================
-st.markdown('<div class="main-title">🌊 AI-Driven Aquatic Airbag Safety System Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🌊 IoT-Driven Aquatic Airbag Safety System Dashboard</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="sub-title">Advanced multi-sensor distress inference, adaptive airbag deployment support, rescue coordination, and research analytics platform.</div>',
     unsafe_allow_html=True,
