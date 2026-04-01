@@ -989,7 +989,7 @@ spo2_warn = st.sidebar.slider("SpO₂ warning (%)", 75, 99, 93)
 temp_warn = st.sidebar.slider("Body temperature concern (°C)", 24.0, 37.0, 35.5, 0.1)
 
 st.sidebar.markdown("---")
-st.sidebar.info("This app is built specifically for the aquatic airbag project.")
+st.sidebar.info("This app is built for the aquatic airbag project.")
 
 
 # ============================================================
