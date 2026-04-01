@@ -1112,7 +1112,7 @@ tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
         "Live Monitoring",
         "Risk & Deployment",
         "ML Evaluation",
-        "Dummy Rescue Map",
+        "Rescue Map",
         "Incidents / Tickets / Notes",
         "Research Panel",
         "Dataset / Export",
@@ -1351,7 +1351,7 @@ with tab2:
 
 with tab3:
     st.markdown("### ML Evaluation and Robustness")
-    st.write("This version is hardened against single-class crashes by falling back to a safe dummy probability model when necessary.")
+    st.write("This version is hardened against single-class crashes by falling back to a safe probability model when necessary.")
 
     evX = models["eval_X"]
     evy = models["eval_y"]
@@ -1387,7 +1387,7 @@ with tab3:
 
 
 with tab4:
-    st.markdown("### Dummy Rescue Map")
+    st.markdown("### Rescue Map")
     st.caption("Synthetic map layer for demo presentation.")
     st.map(
         map_df.rename(columns={"lat": "latitude", "lon": "longitude"}),
