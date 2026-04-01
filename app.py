@@ -1488,12 +1488,7 @@ with tab6:
 
     st.write(
         """
-        Suggested paper-facing modules represented in this app:
-        1. Multi-sensor probabilistic fusion
-        2. Thermal-cardiac-depth dynamic indicators
-        3. Adaptive threshold-based deployment decision
-        4. Turbulence-aware robustness analysis
-        5. Early distress prediction and rescue coordination
+       
         """
     )
 
