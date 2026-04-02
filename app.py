@@ -495,7 +495,7 @@ if not st.session_state.authenticated:
 if not st.session_state.authenticated:
     st.markdown('<div class="main-title">🌊 IoT-Driven Aquatic Airbag Safety Platform</div>', unsafe_allow_html=True)
     st.markdown(
-        '<div class="sub-title">Advanced research-grade dashboard for multi-sensor distress detection, airbag deployment decision support, and aquatic rescue operations.</div>',
+        '<div class="sub-title">Advanced dashboard for multi-sensor distress detection, airbag deployment decision support, and aquatic rescue operations.</div>',
         unsafe_allow_html=True,
     )
     c1, c2, c3 = st.columns([1.1, 1.6, 1.1])
