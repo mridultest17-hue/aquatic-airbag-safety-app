@@ -501,7 +501,7 @@ if not st.session_state.authenticated:
     c1, c2, c3 = st.columns([1.1, 1.6, 1.1])
     with c2:
         st.markdown('<div class="auth-card">', unsafe_allow_html=True)
-        st.markdown("### Secure Role-Based Login")
+        st.markdown("### Role-Based Login")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
         if st.button("Login", use_container_width=True):
